@@ -3,6 +3,8 @@ def do_fizzbuzz():
 	for k in n:
 		if k % 15 == 0:
 			print('fizzbuzz')
+		elif k % 3 == 0:
+			print('fizz')
 
 
 
