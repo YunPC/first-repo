@@ -5,6 +5,8 @@ def do_fizzbuzz():
 			print('fizzbuzz')
 		elif k % 3 == 0:
 			print('fizz')
+		elif k % 5 == 0:
+			print('buzz')
 
 
 
